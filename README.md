@@ -10,4 +10,4 @@ cd romz
 python2 romz.py
 ````
 
-<img src="https://github.com/Mark-Zuck/bff-2/blob/main/rom/20210426_092630.jpg" width="640" title="Menu" alt="Menu">
+<img src="https://github.com/Mark-Zuck/romz/blob/main/mi/FB_IMG_16279918754322764.jpg" width="640" title="Menu" alt="Menu">
