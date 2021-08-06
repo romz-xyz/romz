@@ -159,7 +159,7 @@ def pilih_menu():
 			os.system("cat out/OK-%s-%s-%s.txt" % (ha, op, ta))
 			exit()
 		elif ajg in['2','02']:
-			print ("\n\033[0;97m [•] hasil \033[0;91mCP\033[0;97m tanggal : %s-%s-%s\033[0;91m\n" % (ha, op, ta)) 
+			print ("\n\033[0;97m [•] hasil \033[0;93mCP\033[0;97m tanggal : %s-%s-%s\033[0;93m\n" % (ha, op, ta)) 
 			os.system("cat out/CP-%s-%s-%s.txt" % (ha, op, ta))
 			exit()
 		else:
