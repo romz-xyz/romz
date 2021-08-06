@@ -255,7 +255,7 @@ def langsungapi():
 						data = s.get(url).json()
 						nama = data['name']
 						ttl = data['birthday'].replace("/","-")
-						print('\r\033[0;91m [×] ' +uid+ ' ◊ ' + pw + ' ◊ ' + ttl)
+						print('\r\033[0;93m [×] ' +uid+ ' ◊ ' + pw + ' ◊ ' + ttl)
 						cp.append(uid+' ◊ '+pw+' ◊ '+ttl)
 						save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta),'a')
 						save.write(' [×] '+str(uid)+' ◊ '+str(pw)+' ◊ '+ttl+'\n')
@@ -264,7 +264,7 @@ def langsungapi():
 					except(KeyError, IOError):
 						ttl = ' '
 					except:pass
-					print '\r\033[0;91m [×] ' +uid+ ' ◊ ' + pw + '        '
+					print '\r\033[0;93m [×] ' +uid+ ' ◊ ' + pw + '        '
 					cp.append(uid+' ◊ '+pw)
 					save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
 					save.write(' [×] '+str(uid)+' ◊ '+str(pw)+'\n')
@@ -328,7 +328,7 @@ def manualbapi():
 						data = s.get(url).json()
 						nama = data['name']
 						ttl = data['birthday'].replace("/","-")
-						print('\r\033[0;91m [×] ' +uid+ ' ◊ ' + pw + ' ◊ ' + ttl)
+						print('\r\033[0;93m [×] ' +uid+ ' ◊ ' + pw + ' ◊ ' + ttl)
 						cp.append(uid+' ◊ '+pw+'•'+ttl)
 						save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta),'a')
 						save.write(' [×] '+str(uid)+' ◊ '+str(pw)+' ◊ '+ttl+'\n')
@@ -337,7 +337,7 @@ def manualbapi():
 					except(KeyError, IOError):
 						ttl = ' '
 					except:pass
-					print '\r\033[0;91m [×] ' +uid+ ' ◊ ' + pw + '        '
+					print '\r\033[0;93m [×] ' +uid+ ' ◊ ' + pw + '        '
 					cp.append(uid+' ◊ '+pw)
 					save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
 					save.write(' [×] '+str(uid)+' ◊ '+str(pw)+'\n')
@@ -414,7 +414,7 @@ def langsungbasic():
 						data = s.get(url).json()
 						nama = data['name']
 						ttl = data['birthday'].replace("/","-")
-						print('\r\033[0;91m [×] ' +uid+ ' ◊ ' + pw + ' ◊ ' + ttl)
+						print('\r\033[0;93m [×] ' +uid+ ' ◊ ' + pw + ' ◊ ' + ttl)
 						cp.append(uid+' ◊ '+pw+' ◊ '+ttl)
 						save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta),'a')
 						save.write(' [×] '+str(uid)+' ◊ '+str(pw)+' ◊ '+ttl+'\n')
@@ -423,7 +423,7 @@ def langsungbasic():
 					except(KeyError, IOError):
 						ttl = ' '
 					except:pass
-					print '\r\033[0;91m [×] ' +uid+ ' ◊ ' + pw + '        '
+					print '\r\033[0;93m [×] ' +uid+ ' ◊ ' + pw + '        '
 					cp.append(uid+' ◊ '+pw)
 					save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
 					save.write(' [×] '+str(uid)+' ◊ '+str(pw)+'\n')
@@ -479,7 +479,7 @@ def manualbasic():
 						data = s.get(url).json()
 						nama = data['name']
 						ttl = data['birthday'].replace("/","-")
-						print('\r\033[0;91m [×] ' +uid+ ' ◊ ' + pw + ' ◊ ' + ttl)
+						print('\r\033[0;93m [×] ' +uid+ ' ◊ ' + pw + ' ◊ ' + ttl)
 						cp.append(uid+' ◊ '+pw+'•'+ttl)
 						save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta),'a')
 						save.write(' [×] '+str(uid)+' ◊ '+str(pw)+' ◊ '+ttl+'\n')
@@ -488,7 +488,7 @@ def manualbasic():
 					except(KeyError, IOError):
 						ttl = ' '
 					except:pass
-					print '\r\033[0;91m [×] ' +uid+ ' ◊ ' + pw + '        '
+					print '\r\033[0;93m [×] ' +uid+ ' ◊ ' + pw + '        '
 					cp.append(uid+' ◊ '+pw)
 					save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
 					save.write(' [×] '+str(uid)+' ◊ '+str(pw)+'\n')
