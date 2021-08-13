@@ -1,13 +1,14 @@
 ## Perintah 
 
 ````
-pkg update && pkg upgrade
-pkg install git 
-pkg install python2
-pip2 install requests
-git clone https://github.com/Mark-Zuck/romz
-cd romz
-python2 romz.py
+pkg update && pkg upgrade <br>
+pkg install git <br>
+pkg install python2 <br>
+pip2 install requests <br>
+pip2 install bs4 <br>
+git clone https://github.com/Mark-Zuck/romz <br>
+cd romz <br>
+python2 romz.py <br>
 ````
 #### contact me
 [![](https://img.shields.io/badge/Facebook-blue?logo=Facebook&logoColor=blue&labelColor=white)](https://www.facebook.com/100002461344178)
